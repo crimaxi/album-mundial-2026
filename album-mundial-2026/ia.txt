@@ -12,3 +12,17 @@ react
 6. Crea el archivo ia.txt en la raíz del proyecto y registra el uso de IA en esta etapa
 Resultado: se creó el proyecto base, se añadió la carpeta data y se dejó preparado el archivo para mostrar el array en consola.
 Utilidad: útil para iniciar el desarrollo.
+=== Etapa 2 ===
+Prompt:
+Etapa 2 — Componente StickerCard (15 min)
+Objetivo: Crear un componente reutilizable que represente una figurita.
+Tareas:
+1. Crea el componente src/components/StickerCard.jsx
+2. El componente debe recibir las siguientes props: number , name , group , status
+3. Muestra la información de la figurita de forma visual (número, nombre, grupo)
+4. Aplica estilos básicos según el status : fondo verde para "tengo", amarillo para "repetida", gris para
+"falta" (puedes usar estilos en línea o CSS)
+5. En App.jsx , renderiza al menos 5 figuritas usando el componente, pasando los datos desde el array
+importado
+Resultado: genero lo requerido, pero tuvo fallos a la hora de implementar el programa con el formato de stickers.js
+Utilidad: parcialmente útil.
