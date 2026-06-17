@@ -38,3 +38,15 @@ Tareas:
 5. Verifica que el proyecto siga compilando correctamente.
 Resultado: la app permite alternar el estado de las figuritas y actualizar la cantidad total de figuritas marcadas como tengo.
 Utilidad: muy útil para validar el comportamiento interactivo del álbum.
+=== Etapa 4 ===
+Prompt:
+Etapa 4 — Filtros y búsqueda (20 min)
+Objetivo: Agregar controles para filtrar la colección.
+Tareas:
+1. Agrega un campo de búsqueda de texto con useState que filtre las figuritas por nombre o número.
+2. Agrega botones o un selector para filtrar por estado: "Todas", "Tengo", "Repetidas", "Faltan".
+3. Aplica ambos filtros simultáneamente sobre el array antes de renderizar las tarjetas.
+4. Muestra el total de figuritas visibles según el filtro activo.
+Resultado: la app permite buscar figuritas por nombre o número y filtrar por estado, mostrando el total correspondiente.
+Utilidad: útil para navegar mejor la colección.
+Commit sugerido: feat: filtros por estado y busqueda por nombre/numero
