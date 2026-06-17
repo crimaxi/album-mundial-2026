@@ -1,0 +1,14 @@
+=== Etapa 1 ===
+Prompt: 
+Etapa 1 — Proyecto base (10 min)
+Objetivo: Tener el proyecto creado y la data lista para usar.
+Tareas:
+1. Crea el proyecto con Vite: npm create vite@latest album-mundial-2026 -- --template
+react
+2. Instala las dependencias: npm install
+3. Crea src/data/stickers.js con los datos del álbum (ver sección anterior)
+4. Modifica App.jsx para importar y mostrar en consola el array de figuritas ( console.log )
+5. Verifica que la app corre en localhost:5173
+6. Crea el archivo ia.txt en la raíz del proyecto y registra el uso de IA en esta etapa
+Resultado: se creó el proyecto base, se añadió la carpeta data y se dejó preparado el archivo para mostrar el array en consola.
+Utilidad: útil para iniciar el desarrollo.
