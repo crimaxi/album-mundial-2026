@@ -26,3 +26,15 @@ Tareas:
 importado
 Resultado: genero lo requerido, pero tuvo fallos a la hora de implementar el programa con el formato de stickers.js
 Utilidad: parcialmente útil.
+=== Etapa 3 ===
+Prompt:
+Etapa 3 — Estado de la colección (20 min)
+Objetivo: Permitir cambiar el estado de cada figurita y visualizar cuántas están marcadas como "tengo".
+Tareas:
+1. En App.jsx/App.tsx, agrega un estado para guardar el estado de cada figurita (falta, tengo, repetida).
+2. Implementa una función que cambie el estado al hacer clic sobre la figurita.
+3. Muestra un contador con la cantidad de figuritas marcadas como tengo.
+4. Asegura que el componente StickerCard reciba el estado actual y el handler del clic.
+5. Verifica que el proyecto siga compilando correctamente.
+Resultado: la app permite alternar el estado de las figuritas y actualizar la cantidad total de figuritas marcadas como tengo.
+Utilidad: muy útil para validar el comportamiento interactivo del álbum.
